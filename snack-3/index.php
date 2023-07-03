@@ -1,6 +1,60 @@
 <!-- SCRIPT PHP -->
 <?php 
+    // ARRAY POSTS
+    $posts = [
 
+        '01/07/2023' => [
+            [
+                'title' => 'Post 1',
+                'author' => 'Michele Papagni',
+                'text' => 'Testo post 1'
+            ],
+            [
+                'title' => 'Post 2',
+                'author' => 'Adelia Trevisani',
+                'text' => 'Testo post 2'
+            ],
+        ],
+        '02/07/2023' => [
+            [
+                'title' => 'Post 1',
+                'author' => 'Rosanna Angelo',
+                'text' => 'Testo post 1'
+            ],
+            [
+                'title' => 'Post 2',
+                'author' => 'Gianfranco Sagese',
+                'text' => 'Testo post 2'
+            ],
+            [
+                'title' => 'Post 3',
+                'author' => 'Cirillo Ferrari',
+                'text' => 'Testo post 3'
+            ],
+        ],
+        '03/07/2023' => [
+            [
+                'title' => 'Post 1',
+                'author' => 'Marzio Bergamaschi',
+                'text' => 'Testo post 1'
+            ],
+            [
+                'title' => 'Post 2',
+                'author' => 'Silvana Arcuri',
+                'text' => 'Testo post 2'
+            ],
+            [
+                'title' => 'Post 3',
+                'author' => 'Sandro Iadanza',
+                'text' => 'Testo post 3'
+            ],
+            [
+                'title' => 'Post 4',
+                'author' => 'Daniela Mancini',
+                'text' => 'Testo post 4'
+            ],
+        ],
+    ];
 ?>
 
 <!-- TEMPLATE HTML -->
