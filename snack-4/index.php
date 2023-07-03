@@ -1,6 +1,22 @@
 <!-- SCRIPT PHP -->
 <?php 
+    // ARRAY RANDOM NUMBERS
+    $randomNumbers = [];
 
+    // NUMERO MASSIMO DI NUMERI RANDOM UNIVOCI DA GENERARE
+    $maxNumbers = 15;
+
+    // CICLO WHILE CHE VIENE ESEGUITO FINCHE LA LUNGHEZZA DELL'ARRAY RANDOM_NUMBERS NON è UGUALE A 15
+    while(count($randomNumbers) < $maxNumbers){
+        // GENERO UN NUMERO RANDOM DA 1 A 100
+        $randomNumber = rand(1, 100);
+
+        // CONTROLLO CHE IL NUMERO GENERATO NON SIA PRESENTE NELL'ARRAY RANDOM_NUMBERS
+        if(!in_array($randomNumber, $randomNumbers)){
+            // SE NON è PRESENTE, LO INSERISCO NELL'ARRAY
+            $randomNumbers[] = $randomNumber;
+        }
+    }
 ?>
 
 <!-- TEMPLATE HTML -->
