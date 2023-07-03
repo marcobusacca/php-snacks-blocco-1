@@ -63,7 +63,7 @@
                         <!-- Result Col -->
                         <div class="col-12 text-center my-5">
                             <!-- Result -->
-                            <h2>
+                            <h2 class="<?php echo ($checked) ? 'text-success' : 'text-danger'?>">
                                 <?php
                                     echo ($checked) ? 'Accesso riuscito' : 'Accesso negato';
                                 ?>
