@@ -76,12 +76,34 @@
                 <!-- Main Row -->
                 <div class="row">
                     <?php foreach($posts as $key => $date){?>
+                        <hr>
                         <div class="col-12 text-center my-5">
+                            <!-- Date Posts -->
                             <h1>
                                 <?php echo $key." - "."POSTS" ?>
                             </h1>
+                            <!-- Posts -->
+                            <?php foreach($date as $post){?>
+                                <!-- Post -->
+                                <div class="border border-black my-5">
+                                    <!-- Titolo Post -->
+                                    <div class="my-3">
+                                        <strong>Titolo:</strong>
+                                        <?php echo $post['title']?>
+                                    </div>
+                                    <!-- Autore Post -->
+                                    <div class="my-3">
+                                        <strong>Autore:</strong>
+                                        <?php echo $post['author']?>
+                                    </div>
+                                    <!-- Testo Post -->
+                                    <div class="my-3">
+                                        <strong>Testo:</strong>
+                                        <?php echo $post['text']?>
+                                    </div>
+                                </div>
+                            <?php } ?>
                         </div>
-                        <hr>
                     <?php } ?>
                 </div>
             </div>
