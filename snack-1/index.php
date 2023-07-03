@@ -1,38 +1,38 @@
 <!-- SCRIPT PHP -->
 <?php 
-// ARRAY MATCHES
-$matches = [
-    [
-        'homeTeam'      =>      'Olimpia Milano',
-        'awayTeam'      =>      'Cantù',
-        'homePoints'    =>      55,
-        'awayPoints'    =>      60,
-    ],
-    [
-        'homeTeam'      =>      'Virtus Bologna',
-        'awayTeam'      =>      'Derthona Basket',
-        'homePoints'    =>      102,
-        'awayPoints'    =>      75,
-    ],
-    [
-        'homeTeam'      =>      'Basket Brindisi',
-        'awayTeam'      =>      'Reyer Venezia Mestre',
-        'homePoints'    =>      99,
-        'awayPoints'    =>      87,
-    ],
-    [
-        'homeTeam'      =>      'Polisportiva Dinamo',
-        'awayTeam'      =>      'Scafati Basket',
-        'homePoints'    =>      96,
-        'awayPoints'    =>      92,
-    ],
-    [
-        'homeTeam'      =>      'Pallacanestro Varese',
-        'awayTeam'      =>      'Pistoia Basket',
-        'homePoints'    =>      112,
-        'awayPoints'    =>      109,
-    ],
-];
+    // ARRAY MATCHES
+    $matches = [
+        [
+            'homeTeam'      =>      'Olimpia Milano',
+            'awayTeam'      =>      'Cantù',
+            'homePoints'    =>      55,
+            'awayPoints'    =>      60,
+        ],
+        [
+            'homeTeam'      =>      'Virtus Bologna',
+            'awayTeam'      =>      'Derthona Basket',
+            'homePoints'    =>      102,
+            'awayPoints'    =>      75,
+        ],
+        [
+            'homeTeam'      =>      'Basket Brindisi',
+            'awayTeam'      =>      'Reyer Venezia Mestre',
+            'homePoints'    =>      99,
+            'awayPoints'    =>      87,
+        ],
+        [
+            'homeTeam'      =>      'Polisportiva Dinamo',
+            'awayTeam'      =>      'Scafati Basket',
+            'homePoints'    =>      96,
+            'awayPoints'    =>      92,
+        ],
+        [
+            'homeTeam'      =>      'Pallacanestro Varese',
+            'awayTeam'      =>      'Pistoia Basket',
+            'homePoints'    =>      112,
+            'awayPoints'    =>      109,
+        ],
+    ];
 ?>
 
 <!-- TEMPLATE HTML -->
