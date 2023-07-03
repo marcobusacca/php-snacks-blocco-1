@@ -2,7 +2,6 @@
 <?php 
 // ARRAY MATCHES
 $matches = [
-    'date' => '03/07/2023',
     [
         'homeTeam'      =>      'Olimpia Milano',
         'awayTeam'      =>      'Cantù',
@@ -55,14 +54,12 @@ $matches = [
                 <!-- Main Row -->
                 <div class="row">
                     <!-- Title Col -->
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center my-5">
                         <!-- Title -->
-                        <h1>
-                            <?php
-                                echo $matches['date']." - "."Partite Basket";
-                            ?>
-                        </h1>
+                        <h1>03/07/2023 - Partite Basket</h1>
                     </div>
+                    <hr>
+                    <!-- Matches Col -->
                 </div>
             </div>
         </main>
