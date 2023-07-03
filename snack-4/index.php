@@ -8,6 +8,7 @@
 
     // CICLO WHILE CHE VIENE ESEGUITO FINCHE LA LUNGHEZZA DELL'ARRAY RANDOM_NUMBERS NON è UGUALE A 15
     while(count($randomNumbers) < $maxNumbers){
+
         // GENERO UN NUMERO RANDOM DA 1 A 100
         $randomNumber = rand(1, 100);
 
@@ -32,11 +33,16 @@
     </head>
     <body>
         <!-- Main -->
-        <main>
+        <main style="height: 100vh">
             <!-- Main Container -->
-            <div class="container">
+            <div class="container d-flex align-items-center h-100">
                 <!-- Main Row -->
                 <div class="row">
+                    <?php foreach($randomNumbers as $number) { ?>
+                        <div class="col-4 border border-black text-center fs-2 p-5">
+                            <?php echo $number?>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </main>
