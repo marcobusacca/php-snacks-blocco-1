@@ -48,5 +48,24 @@ $matches = [
         <title>php-snack-1</title>
     </head>
     <body>
+        <!-- Main -->
+        <main>
+            <!-- Main Container -->
+            <div class="container my-5">
+                <!-- Main Row -->
+                <div class="row">
+                    <!-- Title Col -->
+                    <div class="col-12 text-center">
+                        <!-- Title -->
+                        <h1>
+                            <?php
+                                echo $matches['date']." - "."Partite Basket";
+                            ?>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Fine Main -->
     </body>
 </html>
