@@ -72,13 +72,16 @@
         <!-- Main -->
         <main>
             <!-- Main Container -->
-            <div class="container">
+            <div class="container my-5">
                 <!-- Main Row -->
                 <div class="row">
                     <?php foreach($posts as $key => $date){?>
-                        <div class="col-12">
-                            <?php echo $key ?>
+                        <div class="col-12 text-center my-5">
+                            <h1>
+                                <?php echo $key." - "."POSTS" ?>
+                            </h1>
                         </div>
+                        <hr>
                     <?php } ?>
                 </div>
             </div>
