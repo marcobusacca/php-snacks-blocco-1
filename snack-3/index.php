@@ -75,6 +75,11 @@
             <div class="container">
                 <!-- Main Row -->
                 <div class="row">
+                    <?php foreach($posts as $key => $date){?>
+                        <div class="col-12">
+                            <?php echo $key ?>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </main>
