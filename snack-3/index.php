@@ -3,7 +3,7 @@
     // ARRAY POSTS
     $posts = [
 
-        '01/07/2023' => [
+        '01-07-2023' => [
             [
                 'title' => 'Post 1',
                 'author' => 'Michele Papagni',
@@ -15,7 +15,7 @@
                 'text' => 'Testo post 2'
             ],
         ],
-        '02/07/2023' => [
+        '02-07-2023' => [
             [
                 'title' => 'Post 1',
                 'author' => 'Rosanna Angelo',
@@ -32,7 +32,7 @@
                 'text' => 'Testo post 3'
             ],
         ],
-        '03/07/2023' => [
+        '03-07-2023' => [
             [
                 'title' => 'Post 1',
                 'author' => 'Marzio Bergamaschi',
