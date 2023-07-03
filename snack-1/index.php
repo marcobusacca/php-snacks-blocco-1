@@ -60,6 +60,11 @@ $matches = [
                     </div>
                     <hr>
                     <!-- Matches Col -->
+                    <?php foreach($matches as $match){ ?>
+                        <div class="col-12 text-center border py-3">
+                            <?php echo $match['homeTeam']." - ".$match['awayTeam']." | ".$match['homePoints']." - ".$match['awayPoints'] ?>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </main>
